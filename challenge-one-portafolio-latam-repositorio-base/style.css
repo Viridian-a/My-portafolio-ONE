@@ -15,7 +15,6 @@ body {
     box-sizing: border-box;
     background-color: var(--cor-de-fundo) ;
     font-family: 'Raleway';
-    margin: 0 3rem 0 9rem;
     padding: 0;
     line-height: 1;
 }
@@ -42,7 +41,7 @@ https://en.bem.info/methodology/quick-start/*/
 /*Sección Menu*/
 
 section.menu{
-    margin: 1rem;
+    margin: 1rem 2rem 0 9rem;
     display: flex;
     justify-content: space-between;
 }
@@ -80,6 +79,7 @@ section.menu{
     display: flex;
     flex-direction: row;
     padding: 1rem 1rem 1rem 0;
+    margin: 2rem 2rem 1rem 9rem;
 }
 
 .title__container {
@@ -112,13 +112,33 @@ section.menu{
 
 /*Sección About*/
 
-section.about{
-
+.about{
+    padding: 2rem 0 2rem 0;
+    background-color: #EAF2FD;
 }
+
+.about__container {
+    padding-right: 23rem;
+    margin: 2rem 2rem 1rem 9rem;
+    color: #464646;
+}
+.about__title{
+    font-size: 2rem;
+}
+
+.about__paragraph{
+    margin-bottom: 2rem;
+}
+
+/*Sección Skills*/
+
+
+
 
 /*Sección Hobbies*/
 
 section.hobbies{
+    display: flex;
     
 }
 
